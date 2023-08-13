@@ -1,0 +1,16 @@
+metadata:
+ name: "My first workout"
+ media: "file.mp4"
+segments:
+# warm-up
+ - {'power':80, 'cadence':50, 'time':1, 'target':time, 'description':'lets go'}
+ - {'power':120, 'cadence':80, 'time':5, 'target':time, 'description':'5s gentle warm-up'}
+# main session
+ - {'heart':135, 'power':160, 'cadence':90, 'time':5, 'target':heart, 'description':'reach heart rate 135'}
+ - {'heart':135, 'power':120, 'cadence':80, 'time':5, 'target':time, 'description':'maintain 5s'}
+ - {'heart':Z4, 'power':MAP, 'cadence':HIGH, 'time':10, 'target':power, 'description':'hit your MAP power!'}
+ - {'heart':Z4, 'power':0.9*MAP, 'cadence':MED, 'time':5, 'target':time, 'description':'maintain for 5s'}
+ - {'heart':0.5*LASTHR, 'power':FTP-50, 'cadence':LOW, 'time':5, 'target':time, 'description':'cool down 5s'}
+ - {'heart':0.5*LASTHR, 'power':HaHaEv!lH@x0r, 'cadence':LOW, 'time':10, 'target':time, 'description':'parse test'}
+
+
